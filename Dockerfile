@@ -3,7 +3,7 @@ FROM debian:buster-slim AS build
 
 # Install dependencies
 RUN apt-get update \
-  && apt-get install --no-install-recommends -y gnupg2 ca-certificates wget git mercurial build-essential lsb-release devscripts fakeroot quilt libssl-dev libpcre3-dev zlib1g-dev debhelper \
+  && apt-get install --no-install-recommends -y gnupg2 ca-certificates wget git mercurial build-essential lsb-release devscripts fakeroot quilt libssl-dev libpcre3-dev zlib1g-dev debhelper libxml2-utils xsltproc \
   && rm -rf /var/lib/apt/lists/*
 
 # Add Nginx repository and install
