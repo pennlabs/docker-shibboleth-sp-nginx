@@ -40,7 +40,7 @@ RUN wget -qO - http://pkg.switch.ch/switchaai/SWITCHaai-swdistrib.asc | apt-key 
     && echo "deb http://nginx.org/packages/debian/ buster nginx" > /etc/apt/sources.list.d/nginx.list
 
 # Install Shibboleth, Nginx, and Supervisor
-RUN apt-get update && apt-get install --no-install-recommends -y shibboleth=3.0.4+switchaai2~buster1 supervisor nginx \
+RUN apt-get update && apt-get install --no-install-recommends -y shibboleth supervisor nginx \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Nginx modules
