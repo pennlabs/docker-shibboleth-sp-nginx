@@ -3,7 +3,7 @@
 [![CircleCI](https://circleci.com/gh/pennlabs/docker-shibboleth-sp-nginx.svg?style=shield)](https://circleci.com/gh/pennlabs/docker-shibboleth-sp-nginx)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pennlabs/shibboleth-sp-nginx)](https://hub.docker.com/r/pennlabs/shibboleth-sp-nginx)
 
-This docker image contains Nginx with Shibboleth SP 3.0.4 running on Debian Buster (Slim). The image was built following [these instructions](https://github.com/nginx-shib/nginx-http-shibboleth).
+This docker image contains Nginx with Shibboleth SP 3.x.x running on Debian Buster (Slim). The image was built following [these instructions](https://github.com/nginx-shib/nginx-http-shibboleth).
 
 This image is meant to be used as a base image with local changes overriding the default configs.
 
