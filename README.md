@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+Note: This repo is archived and not mantained. The new location for this docker image is [here](https://github.com/pennlabs/infrastructure/tree/master/docker/shibboleth-sp-nginx)
+
 # docker-shibboleth-sp-nginx
 
 [![CircleCI](https://circleci.com/gh/pennlabs/docker-shibboleth-sp-nginx.svg?style=shield)](https://circleci.com/gh/pennlabs/docker-shibboleth-sp-nginx)
